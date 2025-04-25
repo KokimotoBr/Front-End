@@ -5,8 +5,7 @@
 
 header {
     background-color: gold;
-    height: 25px;
-    width: 504px;
+    height: 30px;
 }
 
 nav{
@@ -14,7 +13,7 @@ nav{
 }
 
 div{
-    border: 2px rgb(255, 0, 0) dashed;
+    border: 2px rgb(0, 0, 0) solid;
     max-width: min-content;
 }
 
@@ -27,18 +26,21 @@ li{
     margin: auto 15px;
 }
 
-li > a{
+header a{
     text-decoration: none;
     color: blue;
+    font-size: 20px;
 }
 
 header a:hover{
     color: cyan;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: bold;
 }
 
 ul{
     text-align: center;
-    border: 2px dashed;
 }
 
 /*.div{
@@ -49,8 +51,8 @@ ul{
     padding-top: 10px;
 }
 */
-p {
-    /*background-color: rgb(52, 59, 44);*/
+/*p {
+    background-color: rgb(52, 59, 44);
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 1px black ;
@@ -63,7 +65,7 @@ p {
 }
 
 h1,h2,h3,h4{
-    /*background-color:*/
+    background-color:
     margin: auto;
     margin-top: auto;
     padding: 0px;
@@ -71,7 +73,7 @@ h1,h2,h3,h4{
 }
 
 *{
-    /*background-color: rgb(255, 255, 255);*/
+    background-color: rgb(255, 255, 255);
     margin: auto;
     margin-top: auto;
     padding: 0px;
@@ -84,4 +86,4 @@ img{
     margin-top: 10;
     width: 500px;
     padding: px;
-}
+}*/
