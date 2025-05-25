@@ -4,8 +4,8 @@
 }
 
 header {
-    background-color: gold;
-    height: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 10px;
 }
 
 nav{
@@ -41,6 +41,17 @@ header a:hover{
 
 ul{
     text-align: center;
+}
+
+a{
+    background-color: green;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 /*.div{
