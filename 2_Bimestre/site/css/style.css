@@ -1,0 +1,13 @@
+:root {
+    --corFundo: rgb(20, 184, 94);
+    --tamanhoLink: 1.5rem;
+}
+
+body {
+    background-color: var(--corFundo);
+}
+
+img {
+    width: 700px;
+    max-width: 100;
+}
