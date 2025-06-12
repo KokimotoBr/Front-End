@@ -1,13 +1,52 @@
 :root {
-    --corFundo: rgba(255, 255, 255, 0.658);
+    --corFundo: #ebebeb;
     --tamanhoLink: 1.5rem;
+    --tamanhoLinkMobile: 0.8rem;
 }
+
 
 body {
     background-color: var(--corFundo);
 }
 
-img {
-    width: 700px;
-    max-width: 100;
+h1 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #888;
+}
+.paisagem, .retrato {
+    display: none;
+}
+
+@media screen and (orientation: landscape) { /* Regra para janelas paisagem */
+    .paisagem {
+        display: block;
+    }
+}
+
+@media screen and (orientation: portrait) { /* Regra para janelas retrato */
+    .retrato {
+        display: block;
+    }
+}
+
+@media screen and (min-width:601px) { /* Regra para janelas com mais de 600px */
+    main {
+        min-height: calc(100vh - 16px - 100px);
+    }
+}
+
+
+@media screen and (max-width:600px) { /* Regra para janelas com 600px ou menos */
+
+    main,
+    footer {
+        margin-left: 100px;
+    }
+
+    main {
+        min-height: calc(100vh - 16px);
+    }
 }

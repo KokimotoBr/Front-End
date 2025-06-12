@@ -1,8 +1,8 @@
-.Ulmenu {
+.ulMenu {
     height: 100px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -23,7 +23,48 @@ a:hover {
 }
 
 header {
-    background-color: rgb(52, 145, 199);
+    background-color: rgb(194, 110, 0);
     height: 100px;
 }
 
+a {
+    font-size: var(--tamanhoLink);
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(91, 52, 1);
+}
+
+@media screen and (min-width: 601px) {
+    .imgMobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header {
+        position: fixed;
+        width: 100px;
+        height: 100vh;
+    }
+
+    a {
+        font-size: var(--tamanhoLinkMobile);
+    }
+
+    .imgMobile {
+        display: inline;
+        width: 80px;
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+    }
+}
+
+@media print { /* Regra para impressoras */
+    header {
+        display: none;
+    }
+}
