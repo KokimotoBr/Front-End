@@ -1,8 +1,8 @@
-.ulMenu {
+.Ulmenu {
     height: 100px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -13,8 +13,8 @@ a{
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    padding: 10px 17px;
-    border-radius: 22px;
+    padding: 10px 15px;
+    border-radius: 20px;
     border: 2px solid black;
 }
 
@@ -23,19 +23,18 @@ a:hover {
 }
 
 header {
-    background-color: rgb(194, 110, 0);
+    background-color: rgb(52, 145, 199);
     height: 100px;
+    gap: 10px;
 }
 
 a {
     font-size: var(--tamanhoLink);
     text-decoration: none;
     color: #fff;
+    text-align: center;
 }
 
-a:hover {
-    color: rgb(91, 52, 1);
-}
 
 @media screen and (min-width: 601px) {
     .imgMobile {
@@ -52,6 +51,7 @@ a:hover {
 
     a {
         font-size: var(--tamanhoLinkMobile);
+        text-decoration: solid;
     }
 
     .imgMobile {
