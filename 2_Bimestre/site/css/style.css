@@ -9,8 +9,36 @@ body {
     background-color: var(--corFundo);
 }
 
-h1 {
-    font-weight: bold;
+a{
+    padding-right: 25px;
+}
+
+img{
+    width: 900px;
+    padding-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    line-height: 28px;
+    font-family: 'Helvetica';
+}
+
+h1{
+    font-family: 'Helvetica';
+    font-style: italic;
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Helvetica';
+}
+
+h3{
+    font-family: 'Helvetica';
+    font-style: italic;
 }
 
 footer {
@@ -49,4 +77,13 @@ footer {
     main {
         min-height: calc(100vh - 16px);
     }
+}
+
+div{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
 }
