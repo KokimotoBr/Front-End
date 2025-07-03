@@ -13,6 +13,11 @@ a{
     padding-right: 25px;
 }
 
+#Logo{
+    width: 90px;
+    padding-top: 0px;
+}
+
 img{
     width: 900px;
     padding-bottom: 10px;

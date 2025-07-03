@@ -1,35 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2° Bimestre: Site Livre</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloons TD 6</title>
+  <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul class="Ulmenu">
-                <img src="img/Bloons_TD_6_logo.webp">
-                <li><a href="./home.html">Home</a> <a href="./aba_1.html">Lore</a> <a href="./aba_2.html">Personagens</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div>
-            <h1>To fazendo ainda paizão</h1>
-            <img src="img/Bloon_main.jpg">
-            <h3>Os Bloons estão de volta e melhores do que nunca! Prepare-se para um jogo de defesa de torre em 3D gigantesco, projetado para lhe proporcionar horas e horas do melhor jogo de estratégia disponível.
-                Crie sua defesa perfeita com uma combinação de incríveis torres de macacos, melhorias, heróis e habilidades ativadas, depois destrua todos os Bloons que aparecerem no seu caminho!</h3>
-            <p>Coisas sobre o jogo</p>
-        </div>
-    </main>
-    <footer>
-        <p>&copy;Todos os direitos reservados! </p>
-    </footer>
+  <header>
+    <img id="Logo" src="img/Bloons_TD_6_logo.webp">
+    <h1>Bloons TD 6</h1>
+    <a href="home.html">Home</a>
+  </header>
+
+  <nav>
+    <a href="./torre.html">Torres</a>
+    <a href="#">Heróis</a>
+    <a href="#">Bloons</a>
+    <a href="#">Modos de Jogo</a>
+    <a href="#">Mapas</a>
+  </nav>
+
+  <main>
+    <div class="card">
+      <h2>O que é Bloons TD 6?</h2>
+      <p>Esse site é dedicado a te ajudar a entender tudo sobre o universo de Bloons TD 6. 
+        Desde as torres mais brabas até os mapas mais cabulososBloons TD 6  é um jogo de defesa de torre desenvolvido pela Ninja Kiwi, 
+        onde macacos super treinados enfrentam hordas de balões ("bloons") que tentam atravessar o mapa. Lançado em 2018, 
+        o jogo é a sexta edição principal da franquia Bloons Tower Defense, que é um clássico entre os fãs de estratégia..</p>
+      <p>No jogo, o objetivo é não deixar os bloons chegarem ao final do caminho. 
+        Pra isso, o jogador posiciona torres macaco com habilidades únicas, 
+        usa heróis poderosos e combina estratégias pra dar conta dos bloons mais difíceis, 
+        como os camuflados, blindados e os dirigíveis. </p>
+    
+    </div>
+   
+    <div class="card">
+    <img src="img/Bloon_main.jpg">
+    </div>
+
+    <div class="card">
+      <h2>Estratégia</h2>
+      <input type="text" id="searchInput" placeholder="Digite algo...">
+      <ul id="searchResults">
+       <p>Para se dar bem em Bloons TD 6, é importante:</p>
+        <li>Conhecer as torres e suas habilidades</li>
+        <li>Entender os tipos de bloons e como derrotá-los</li>
+        <li>Planejar a colocação das torres no mapa</li>
+        <li>Gerenciar o dinheiro para upgrades e novas torres</li>
+        <li>Adaptar a estratégia conforme o nível avança</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Explore a Wiki</h3>
+      <p>Clique nas abas do menu acima ou use a busca (To fazendo ainda) pra navegar pelas páginas:</p>
+      <ul>
+        <li> Todas as Torres e Upgrades</li>
+        <li> Heróis e suas habilidades</li>
+        <li> Tipos de Bloons e como lidar com eles</li>
+        <li> Mapas com estratégias específicas</li>
+        <li> Modos de jogo e desafios</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>Site feito por Anthony Pohlmann</p>
+  </footer>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const items = document.querySelectorAll('#searchResults li');
+
+    searchInput.addEventListener('keyup', function () {
+      const filter = searchInput.value.toLowerCase();
+      items.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        item.style.display = text.includes(filter) ? '' : 'none';
+      });
+    });
+  </script>
+
 </body>
 </html>
