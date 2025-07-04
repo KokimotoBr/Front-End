@@ -40,7 +40,7 @@
     </div>
    
     <div class="card">
-    <img class="principal" src="img/Bloon_main.jpg">
+    <img src="img/Bloon_main.jpg">
     </div>
 
     <div class="card">
@@ -72,19 +72,6 @@
   <footer>
     <p>Site feito por Anthony Pohlmann</p>
   </footer>
-
-  <script>
-    const searchInput = document.getElementById('searchInput');
-    const items = document.querySelectorAll('#searchResults li');
-
-    searchInput.addEventListener('keyup', function () {
-      const filter = searchInput.value.toLowerCase();
-      items.forEach(item => {
-        const text = item.textContent.toLowerCase();
-        item.style.display = text.includes(filter) ? '' : 'none';
-      });
-    });
-  </script>
 
 </body>
 </html>
