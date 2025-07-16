@@ -27,3 +27,36 @@ main {
 .torre{
     width: 150px;
 }
+
+.tabela-torres img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.tabela-herois img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.secao1 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  background-color: #f0f0f0; 
+  padding: 10px 0;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.formulario {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}

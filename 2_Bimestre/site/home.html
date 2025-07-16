@@ -20,9 +20,9 @@
     <a href="./home.html">Início</a>
     <a href="./torre.html">Torres</a>
     <a href="./heroi.html">Heróis</a>
-    <a href="./bloon.html ">Bloons</a>
+   <!-- <a href="./bloon.html ">Bloons</a>
     <a href="./modos.html">Modos de Jogo</a>
-    <a href="./mapas.html">Mapas</a>
+    <a href="./mapas.html">Mapas</a>-->
   </nav>
 
   <main>
@@ -36,7 +36,6 @@
         Pra isso, o jogador posiciona torres macaco com habilidades únicas, 
         usa heróis poderosos e combina estratégias pra dar conta dos bloons mais difíceis, 
         como os camuflados, blindados e os dirigíveis. </p>
-    
     </div>
    
     <div class="card">
@@ -45,8 +44,6 @@
 
     <div class="card">
       <h2>Estratégia</h2>
-      <input type="text" id="searchInput" placeholder="Digite algo...">
-      <ul id="searchResults">
        <p>Para se dar bem em Bloons TD 6, é importante:</p>
         <li>Conhecer as torres e suas habilidades</li>
         <li>Entender os tipos de bloons e como derrotá-los</li>
@@ -58,33 +55,26 @@
 
     <div class="card">
       <h3>Explore a Wiki</h3>
-      <p>Clique nas abas do menu acima ou use a busca (To fazendo ainda) pra navegar pelas páginas:</p>
+      <p>Clique nas abas do menu acima para navegar pelas páginas:</p>
       <ul>
         <li> Todas as Torres e Upgrades</li>
         <li> Heróis e suas habilidades</li>
-        <li> Tipos de Bloons e como lidar com eles</li>
-        <li> Mapas com estratégias específicas</li>
-        <li> Modos de jogo e desafios</li>
       </ul>
     </div>
   </main>
 
+<section class="secao1">
+  <form class="formulario" action="">
+    <label for="nota">Dê sua nota a essa site (0 a 10):</label><br>
+    <input type="number" id="nota" name="nota" min="0" max="10" required>
+    <br><br>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
   <footer>
     <p>Site feito por Anthony Pohlmann</p>
   </footer>
-
-  <script>
-    const searchInput = document.getElementById('searchInput');
-    const items = document.querySelectorAll('#searchResults li');
-
-    searchInput.addEventListener('keyup', function () {
-      const filter = searchInput.value.toLowerCase();
-      items.forEach(item => {
-        const text = item.textContent.toLowerCase();
-        item.style.display = text.includes(filter) ? '' : 'none';
-      });
-    });
-  </script>
 
 </body>
 </html>

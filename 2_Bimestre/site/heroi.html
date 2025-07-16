@@ -20,54 +20,263 @@
     <a href="./home.html">Início</a>
     <a href="./torre.html">Torres</a>
     <a href="./heroi.html">Heróis</a>
-    <a href="./bloon.html ">Bloons</a>
+    <!--<a href="./bloon.html ">Bloons</a>
     <a href="./modos.html">Modos de Jogo</a>
-    <a href="./mapas.html">Mapas</a>
+    <a href="./mapas.html">Mapas</a> -->
   </nav>
 
   <main>
     <div class="card">
-      <h2>O que é Bloons TD 6?</h2>
-      <p>Esse site é dedicado a te ajudar a entender tudo sobre o universo de Bloons TD 6. 
-        Desde as torres mais brabas até os mapas mais cabulososBloons TD 6  é um jogo de defesa de torre desenvolvido pela Ninja Kiwi, 
-        onde macacos super treinados enfrentam hordas de balões ("bloons") que tentam atravessar o mapa. Lançado em 2018, 
-        o jogo é a sexta edição principal da franquia Bloons Tower Defense, que é um clássico entre os fãs de estratégia.</p>
-      <p>No jogo, o objetivo é não deixar os bloons chegarem ao final do caminho. 
-        Pra isso, o jogador posiciona torres macaco com habilidades únicas, 
-        usa heróis poderosos e combina estratégias pra dar conta dos bloons mais difíceis, 
-        como os camuflados, blindados e os dirigíveis. </p>
-    
-    </div>
-   
-    <div class="card">
-    <img src="img/Bloon_main.jpg">
+      <h2>O que são heróis?</h2>
+      <p>Heróis são unidades especiais e únicas que evoluem automaticamente durante a partida. 
+        Cada um tem habilidades diferentes, e escolher o herói certo muda totalmente a sua estratégia.</p>
     </div>
 
-    <div class="card">
-      <h2>Estratégia</h2>
-      <input type="text" id="searchInput" placeholder="Digite algo...">
-      <ul id="searchResults">
-       <p>Para se dar bem em Bloons TD 6, é importante:</p>
-        <li>Conhecer as torres e suas habilidades</li>
-        <li>Entender os tipos de bloons e como derrotá-los</li>
-        <li>Planejar a colocação das torres no mapa</li>
-        <li>Gerenciar o dinheiro para upgrades e novas torres</li>
-        <li>Adaptar a estratégia conforme o nível avança</li>
-      </ul>
-    </div>
+<input type="text" id="searchInput" placeholder="Buscar na tabela..." />
+
+<table class="mw-collapsible tabela-herois sortable jquery-tablesorter mw-made-collapsible" id="tabelinha" style="width:100%;border:2px solid gray;font-size:90%;" data-expandtext="+" data-collapsetext="−" border="1">
+<thead><tr>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Ordernar ascendente"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Imagem
+</font></font></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Ordernar ascendente"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nome
+</font></font></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Ordernar ascendente"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Descrição
+</font></font></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Ordernar ascendente"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Custo
+</font></font></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Ordernar ascendente"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Desbloquear
+</font></font></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Ordernar ascendente"><button type="button" class="mw-collapsible-toggle mw-collapsible-toggle-default" aria-expanded="true" tabindex="0"><span class="mw-collapsible-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">−</font></font></span></button><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lançado
+</font></font></th></tr></thead><tbody>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/QuincyPortrait.webp" decoding="async" loading="lazy" width="100" height="102" class="mw-file-element ls-is-cached lazyloaded" data-image-name="QuincyPortrait.png" data-image-key="QuincyPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/a/a8/QuincyPortrait.png/revision/latest/scale-to-width-down/100?cb=20190612021048&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Quincy (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Quincy</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Orgulhoso, forte e inteligente, Quincy usa seu arco para realizar feitos de habilidade incrível."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$460 / $540 / $585 / $650
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rodada 3 do Tutorial
+</font></font></td>
+<td rowspan="4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/GwendolinPortrait.webp" decoding="async" loading="lazy" width="100" height="106" class="mw-file-element ls-is-cached lazyloaded" data-image-name="GwendolinPortrait.png" data-image-key="GwendolinPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/b/b9/GwendolinPortrait.png/revision/latest/scale-to-width-down/100?cb=20190612022457&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Gwendolin (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gwendolin</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Gwendolin acredita que ainda não houve um problema de Bloon que não possa ser resolvido com fogo. Muito fogo." </font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$615 / $725 / $785 / $870
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 14
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/StrikerJonesPortrait.webp" decoding="async" loading="lazy" width="100" height="100" class="mw-file-element lazyloaded" data-image-name="StrikerJonesPortrait.png" data-image-key="StrikerJonesPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/b/b4/StrikerJonesPortrait.png/revision/latest/scale-to-width-down/100?cb=20190612023137&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Atacante Jones (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atacante Jones</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Striker Jones é um comandante forte que usa seu conhecimento de combate de longo alcance para aumentar significativamente o poder dos explosivos."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$595 / $700 / $755 / $840
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 21
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/ObynGreenFootPortrait.webp" decoding="async" loading="lazy" width="100" height="102" class="mw-file-element ls-is-cached lazyloaded" data-image-name="ObynGreenFootPortrait.png" data-image-key="ObynGreenFootPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/7/72/ObynGreenFootPortrait.png/revision/latest/scale-to-width-down/100?cb=20190612023839&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Obyn Greenfoot (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Obyn Greenfoot</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Comandando poderes da natureza, Obyn pode atirar através de obstáculos sólidos com seu ataque de lobo espiritual."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$550 / $650 / $700 / $780
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 28
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/CaptainChurchillPortrait.webp" decoding="async" loading="lazy" width="100" height="119" class="mw-file-element lazyloaded" data-image-name="CaptainChurchillPortrait.png" data-image-key="CaptainChurchillPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/5/5a/CaptainChurchillPortrait.png/revision/latest/scale-to-width-down/100?cb=20190612024733&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Capitão Churchill (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Capitão Churchill</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Em seu tanque de batalha blindado, o capitão é uma potência sensata no campo de batalha."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$1.700 / $2.000 / $2.160 / $2.400
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 15 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 2500
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/BenjaminPortrait.webp" decoding="async" loading="lazy" width="100" height="123" class="mw-file-element lazyloaded" data-image-name="BenjaminPortrait.png" data-image-key="BenjaminPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/a/af/BenjaminPortrait.png/revision/latest/scale-to-width-down/100?cb=20190612025211&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Benjamin (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Benjamin</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Usando suas habilidades de hackers de elite, Benjamin pode gerar dinheiro extra para a causa."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$1.020 / $1.200 / $1.295 / $1.440
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 15 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 3.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/EziliPortrait.webp" decoding="async" loading="lazy" width="100" height="118" class="mw-file-element lazyloaded" data-image-name="EziliPortrait.png" data-image-key="EziliPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/d/d3/EziliPortrait.png/revision/latest/scale-to-width-down/100?cb=20190612025715&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Ezili (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ezili</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Ezili é um portador de artes das trevas e manipulador de Bloons. Cuidado."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$510 / $600 / $650 / $720
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 25 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 3.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/PatFustyPortrait.webp" decoding="async" loading="lazy" width="100" height="105" class="mw-file-element lazyloaded" data-image-name="PatFustyPortrait.png" data-image-key="PatFustyPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/7/76/PatFustyPortrait.png/revision/latest/scale-to-width-down/100?cb=20190612030015&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Pat Fusty (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pat Fusty</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Pat é um enorme macaco de enorme força. Seu tamanho e poder únicos são um grande trunfo na guerra contra Bloons."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$680 / $800 / $865 / $960
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 15 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 3.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">9,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/AdoraPortrait.webp" decoding="async" loading="lazy" width="100" height="100" class="mw-file-element lazyloaded" data-image-name="AdoraPortrait.png" data-image-key="AdoraPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/2/2a/AdoraPortrait.png/revision/latest/scale-to-width-down/100?cb=20191213222754&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Adora (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adora</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"A devoção de Adora a obriga a derrubar Bloons com furiosa vingança."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$850 / $1.000 / $1.080 / $1.200
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 25 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 5.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">14,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/AdmiralBrickellPortrait.webp" decoding="async" loading="lazy" width="100" height="100" class="mw-file-element lazyloaded" data-image-name="AdmiralBrickellPortrait.png" data-image-key="AdmiralBrickellPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/4/4d/AdmiralBrickellPortrait.png/revision/latest/scale-to-width-down/100?cb=20200602105905&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Almirante Brickell (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Almirante Brickell</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Comandem todos os seus Macacos à base de água para uma vitória decisiva. Requer água para colocar."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$765 / $900 / $970 / $1.080
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 35 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 5.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">18,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/Etienne.webp" decoding="async" loading="lazy" width="100" height="119" class="mw-file-element lazyloaded" data-image-name="Etienne.png" data-image-key="Etienne.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/e/ef/Etienne.png/revision/latest/scale-to-width-down/100?cb=20200902004419&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Étienne (BTD6)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Étienne</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Este herói de alta tecnologia pode perseguir os Bloons onde quer que eles vão com seu drone controlado remotamente."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$720 / $850 / $920 / $1.020
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 25 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 5.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/SaudaPortrait.webp" decoding="async" loading="lazy" width="100" height="108" class="mw-file-element lazyloaded" data-image-name="SaudaPortrait.png" data-image-key="SaudaPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/e/eb/SaudaPortrait.png/revision/latest/scale-to-width-down/100?cb=20210311044157&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  class="mw-redirect" title="Sauda"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sauda</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Com uma fúria calma, Sauda pode esculpir Bloons com suas espadas gêmeas afiadas."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$510 / $600 / $650 / $720
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 25 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 5.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">24,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/PsiPortrait.webp" decoding="async" loading="lazy" width="100" height="132" class="mw-file-element lazyloaded" data-image-name="PsiPortrait.png" data-image-key="PsiPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/9/96/PsiPortrait.png/revision/latest/scale-to-width-down/100?cb=20230322222255&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Psi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Psi</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Uma criança macaco talentosa, Psi usa apenas o poder da mente para destruir Bloons de dentro para fora."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$850 / $1.000 / $1.080 / $1.200
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 35 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 5.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">26,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/GeraldoPortrait.webp" decoding="async" loading="lazy" width="100" height="101" class="mw-file-element lazyloaded" data-image-name="GeraldoPortrait.png" data-image-key="GeraldoPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/9/99/GeraldoPortrait.png/revision/latest/scale-to-width-down/100?cb=20220413053005&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  title="Geraldo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Geraldo</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Geraldo, o lojista, vende uma seleção de itens úteis e ataca Bloons com seu ataque relâmpago."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$640 / $750 / $810 / $900
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 35 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">31,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/CorvusPortrait.webp" decoding="async" loading="lazy" width="100" height="100" class="mw-file-element lazyloaded" data-image-name="CorvusPortrait.png" data-image-key="CorvusPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/e/e6/CorvusPortrait.png/revision/latest/scale-to-width-down/100?cb=20231206075315&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a  class="mw-redirect" title="Corvus"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Corvus</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Corvus funciona bem na linha de frente, enfraquecendo os bloons próximos para colher Mana e canalizar energias poderosas através de seu companheiro espiritual."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$785 / $925 / $1.000 / $1.110
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 35 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">40,0
+</font></font></td></tr>
+<tr>
+<td><span typeof="mw:File"><a class="mw-file-description image"><img src="./img/RosaliaPortrait.webp" decoding="async" loading="lazy" width="100" height="98" class="mw-file-element lazyloaded" data-image-name="RosaliaPortrait.png" data-image-key="RosaliaPortrait.png" data-relevant="1" data-src="https://static.wikia.nocookie.net/b__/images/6/6c/RosaliaPortrait.png/revision/latest/scale-to-width-down/100?cb=20240529062931&amp;path-prefix=bloons"></a></span>
+</td>
+<td><a title="Rosália"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rosália</font></font></a>
+</td>
+<td><i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Rosalia pode se reposicionar em um momento com seu jetpack e traz o poder de fogo com seu laser, lançador de granadas e mísseis."</font></font></i>
+</td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$745 / $875 / $945 / $1.050
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nível 25 + </font></font><span style="position:relative; bottom:2px; margin:0 2px 0 1px; white-space:nowrap;"><span class="mw-default-size" typeof="mw:File"><a href="/wiki/Monkey_Money_(BTD6)" title="Monkey Money (BTD6)"><img src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons" decoding="async" loading="lazy" width="26" height="16" class="mw-file-element ls-is-cached lazyloaded" data-image-name="BloonjaminsIcon.png" data-image-key="BloonjaminsIcon.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/b__/images/2/27/BloonjaminsIcon.png/revision/latest/scale-to-width-down/26?cb=20200608020230&amp;path-prefix=bloons"></a></span></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 5.000
+</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">43,0
+</font></font></td></tr></tbody><tfoot></tfoot></table>
 
     <div class="card">
       <h3>Explore a Wiki</h3>
-      <p>Clique nas abas do menu acima ou use a busca (To fazendo ainda) pra navegar pelas páginas:</p>
+      <p>Clique nas abas do menu acima para navegar pelas páginas:</p>
       <ul>
         <li> Todas as Torres e Upgrades</li>
         <li> Heróis e suas habilidades</li>
-        <li> Tipos de Bloons e como lidar com eles</li>
-        <li> Mapas com estratégias específicas</li>
-        <li> Modos de jogo e desafios</li>
       </ul>
     </div>
   </main>
+
+<script>
+  const input = document.getElementById("searchInput");
+  const table = document.getElementById("tabelinha");
+  const rows = table.getElementsByTagName("tr");
+
+  input.addEventListener("input", function () {
+    const filtro = input.value.toLowerCase();
+
+    for (let i = 1; i < rows.length; i++) {
+      const row = rows[i];
+      const texto = row.textContent.toLowerCase();
+
+      row.style.display = texto.includes(filtro) ? "" : "none";
+    }
+  });
+</script>
 
   <footer>
     <p>Site feito por Anthony Pohlmann</p>
