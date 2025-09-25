@@ -1,0 +1,14 @@
+ div {
+    display: flex;
+    gap: 10px;
+ }
+
+ ul{
+    border: 2px solid black;
+   list-style-type: none;
+ }
+
+ li {
+   cursor: pointer;
+
+ }

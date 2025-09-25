@@ -1,0 +1,39 @@
+.cu {
+    color: red;
+  }
+  
+  .uc{
+    color: black;
+  }
+
+.ulmenu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 22px;
+}
+
+.ulsubmenu{
+    font-size: 18px;
+    padding-left: 10px;
+    max-width: 0;
+    overflow: hidden ;
+}
+
+.limenu:hover .ulsubmenu{
+  max-width: 100vh;
+}
+
+.limenu, .lisubmenu{
+    list-style-type: none;
+}
+
+  .header{
+    background-color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+.link:hover{
+    color: whitesmoke;
+}
+ 
